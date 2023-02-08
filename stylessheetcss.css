@@ -4,6 +4,10 @@
     padding: 0;
     margin: 0;
   }
+  button
+  {
+    cursor: pointer;
+  }
   .saleoff
   {
 background-image: url("images/get10%offbackground.png");
@@ -24,6 +28,10 @@ font-size: 15px;
 max-width: 1300px;
 padding: 0 35px;
 margin: auto;
+}
+.nav-section
+{
+    padding-block: 20px;
 }
 nav
 {
@@ -66,13 +74,10 @@ nav
     width: 2%;
 }
 /*******************carouselhomebackground***********************/
-#sectionone
-{
-    margin: 4% auto;
-}
+
 .backgroundtophome
 {
-    background-image:url("images/glowhometop.png"),url("images/propersectiononebackgroundimage.jpg");
+    background-image:url("images/glowhometop.png"),url("images/greenglobesection9background.jpg");
 
     /* both back-ground images are not repeating */
     background-repeat: no-repeat,no-repeat;
@@ -98,13 +103,13 @@ nav
 display: flex;
 flex-direction: row;
 align-items: center;
+justify-content: flex-start;
 width: 100%;
-gap: 1%;
 }
 
   .sectiononeiconcolhome
   {
-width: 58%;
+width: 43%;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -123,7 +128,7 @@ position: relative;
 }
 .iconscontainersectionone
 {
-    width: 35%; /* adjust this to control the size of the circular image */
+    width: 16%; /* adjust this to control the size of the circular image */
     /* height: 0; */
   
     padding: 22%; /* maintain the aspect ratio of the image */
@@ -140,20 +145,16 @@ position: relative;
     font-size: 12px;
     color: rgb(58,58,58);
     margin-block:6%;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .homecarouselcol2
 {
-    width: 50%;
+    width: 40%;
 display: flex;
 
 }
-    .ornagecylindercontainer
-    {
-        width: 20%;
-        padding-left: 20px;
-    }
+
 .orangecylinder
 {
     width: 100%;
@@ -195,7 +196,6 @@ display: flex;
 {
 display: flex;
 flex-wrap: wrap;
-gap: 2%;
 justify-content: center;
 }
 .sectiononeiconcol2
@@ -279,7 +279,7 @@ background-position: center;
     display: flex;
     align-items: center;
 gap: 2%;
-    padding-block-start: 100px;
+    padding-block-start: 60px;
     flex-wrap:wrap ;
 }
 .threebottles
@@ -333,10 +333,10 @@ position: relative;
     font-family:RanuaTrials-Medium;
     border: none;
     border-radius: 20px;
-    padding-block: 7px;
+    padding-block: 10px;
     padding-inline: 24px;
-    background-color:#fcd285;
-
+    background-color:rgb(254, 203, 122);
+    font-size: 12px;
 }
 
 .textbottlesection
@@ -406,7 +406,7 @@ width: 100%;}
 }
 .childicontext
 {
-    font-size: 13px;
+    font-size: 14px;
     color: rgb(58,58,58);
     margin-block: 6%;
 }
@@ -423,13 +423,15 @@ background-size: 100% 100%;
 {
     display: flex;
     padding-block: 60px;
-    justify-content: flex-end;
+justify-content: right;
+flex-wrap: wrap;
+
 }
 .sectionfivecolumn
 {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 40%;
 }
 .sectionfiveiconandtext
 {
@@ -449,11 +451,18 @@ padding-block: 9px;
 }
 .sectionfiveiconcontainer
 {
-    width: 14%;
+    width: 12%;
 }
 
-
-
+.easybutton{color: rgb(58,58, 58);
+font-family:RanuaTrials-Medium;
+border: none;
+border-radius: 20px;
+padding-block: 13px;
+padding-inline: 34px;
+background-color:rgb(254, 203, 122);
+font-size: 12px;
+}
 
 
 
@@ -484,17 +493,17 @@ align-items: center;
     position: relative;
   
 }
-.bluecylinder
+
+.learnmorebutton
 {
-    max-width: 16%;
-    width: 100%;
-}
-.bluecylinderglare
-{
-    position: absolute;
-    bottom:1%;
-    left: 27%;
-    width:26%;
+    color: rgb(58,58, 58);
+    font-family:RanuaTrials-Medium;
+    border: none;
+    border-radius: 20px;
+    padding-block: 12px;
+    padding-inline: 24px;
+    background-color:rgb(254, 203, 122);
+    font-size: 12px;
 }
 
 .smallsizetextsix
@@ -596,8 +605,6 @@ align-items: center;
 #sprulentsection
 {
     color: rgb(58,58,58);
-    padding-top: 40px;
-    padding-bottom: 40px;
 }
 
 
@@ -633,6 +640,7 @@ flex-wrap: wrap;
     flex-wrap: wrap;
 width: 100%;
 gap: 2%;
+margin: 2% auto;
 }
 .abovefootercol
 {  width: 12.57%;
@@ -823,7 +831,7 @@ text-align: center;
 {
     display: flex;
     flex-wrap: wrap;
-    gap: 3%;
+    gap: 2%;
     justify-content: center;
 align-self: center;
 width: 100%;
@@ -845,7 +853,7 @@ padding-block:46px;
 }
 .yellowiconcontainer
 {
-width: 43%;
+width: 40%;
 }
 .yellowicon
 {
@@ -912,7 +920,7 @@ background-size:100% 100%
 }
 .orangearrow
 {
-background-color: orange;
+    background-color:rgb(254, 203, 122);
 }
 
 .inputplacehodertext::placeholder
@@ -960,6 +968,7 @@ font-size: 12px;
     {
         width: 100%;
     } 
+/***********************Section five media query*****/
 
 
 
@@ -1047,7 +1056,5 @@ font-size: 12px;
     border-bottom: 3px solid rgb(1, 68, 12);
     
     transform: rotate(45deg);
-    
     transform-origin: left;
-    
     }
