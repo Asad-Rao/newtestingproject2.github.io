@@ -108,12 +108,9 @@ nav {
     width: 100%;
 }
 
-.sectiononeiconcolhome {
-    width: 43%;
- display: flex; 
- flex-direction: column;
-    justify-content: center; 
-    position: relative;
+.sectiononeiconcolhome
+{
+    width: 18%;
 }
 
 .sectiononeiconcol {
@@ -127,32 +124,14 @@ nav {
 }
 
 .iconscontainersectionhome {
-    width: 16%;
-    /* adjust this to control the size of the circular image */
-    /* height: 0; */
+    width: 100%;
 
-    padding: 22%;
-    /* maintain the aspect ratio of the image */
-
-    overflow: hidden;
-
-    /* make the image circular */
-    position: relative;
 
 }
 
 .iconscontainersectionone {
-    width: 16%;
-    /* adjust this to control the size of the circular image */
-    /* height: 0; */
+    width: 60%;
 
-    padding: 22%;
-    /* maintain the aspect ratio of the image */
-
-    overflow: hidden;
-
-    /* make the image circular */
-    position: relative;
 }
 
 .sectiononeiconcoltext {
@@ -208,13 +187,14 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
 }
 
 .sectiononeiconcol2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 19%;
+    width: 16%;
     text-align: center;
 
 }
@@ -244,10 +224,7 @@ nav {
 }
 
 .iconimage {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
     /* center the image */
     width: 100%;
     /* make the image stretch to fill the container */
@@ -748,6 +725,8 @@ nav {
 
 input {
     padding-block: 8px;
+    width: 83%;
+
 }
 
 
@@ -956,7 +935,13 @@ input {
     }
 
 
-
+/************************MEDIA QUERY FOR HOME CAROUSEL*****/
+.carouselulimagesiconrow
+{
+    display: flex;
+    justify-content: center;
+}
+/**********************************************************/
 
     /*******************MEDIA QUERY FOR SECTION SIX***************************/
     .sectionsixcol1 {
@@ -1032,6 +1017,10 @@ input {
         width: 100%;
         text-align: center;
     }
+    input
+    {
+        width: 30%;
+    }
 
 
 
@@ -1043,7 +1032,33 @@ input {
         width: 100%;
         margin-block-end: 2%;
     }
+    /****************green globe section***********/
+    .cleaningpottlecol1
+    {
+    width: 100%;
+    text-align: center;    
+    }  
+.sectionfivecolumn
+{
+    width: 100%;
+    text-align: center;
+}
+.sectionfiveiconandtext
+{
+    justify-content: center;
+}
 
+
+
+/*********************Section six Media Query ********/
+.sectionsixcol1
+{
+    width: 100%;
+}
+.sectionsixrow
+{
+    justify-content: center;
+}
 }
 
 
@@ -1057,4 +1072,8 @@ input {
 
     transform-origin: left;
 
+
+
+  
 }
+
