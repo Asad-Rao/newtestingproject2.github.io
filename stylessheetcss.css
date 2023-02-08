@@ -98,14 +98,28 @@ nav
 display: flex;
 flex-direction: row;
 align-items: center;
-padding-block: 40px;
 width: 100%;
-gap: 5%;
+gap: 1%;
 }
+
+  .sectiononeiconcolhome
+  {
+width: 58%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+position: relative;
+  }
+
 .sectiononeiconcol
 {
   
-width: 14%;
+    width: 58%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+  
 }
 .iconscontainersectionone
 {
@@ -132,13 +146,17 @@ width: 14%;
 .homecarouselcol2
 {
     width: 50%;
-    padding-block-end: 200px;
-    padding-inline-start: 38px;
+display: flex;
 
 }
+    .ornagecylindercontainer
+    {
+        width: 20%;
+        padding-left: 20px;
+    }
 .orangecylinder
 {
-    max-width: 19%;
+    width: 100%;
     display: block;
 }
 .homecarousel1col1heading
@@ -283,6 +301,7 @@ position: relative;
     font-family:RanuaTrials-Heavy;
     width: 43%;
     text-align: left;
+    right: 60%;
 }
 .threebottlescontent
 {
@@ -359,7 +378,7 @@ color: rgb(58,58,58);
 {
     color: rgb(58,58,58);
     font-family:RanuaTrials-Medium;
-    font-size: 20px;
+    font-size: 30px;
 }
 .littlechildimage
 {
@@ -368,7 +387,8 @@ color: rgb(58,58,58);
 }
 .imageicons-row
 {display: flex;
- flex-wrap: wrap;}
+ flex-wrap: wrap;
+width: 100%;}
 .imageicons-column
 {
     font-family:RanuaTrials-Regular;
@@ -388,6 +408,7 @@ color: rgb(58,58,58);
 {
     font-size: 13px;
     color: rgb(58,58,58);
+    margin-block: 6%;
 }
 /**************************Section number five****************/
 #sectionfive
@@ -447,10 +468,9 @@ padding-block: 9px;
 }
 .sectionsixrow
 {
-    display: flex;
-    flex-wrap: wrap;
+display: flex;
+flex-wrap: wrap;
 align-items: center;
-justify-content: space-between;
 }
 .sectionsixcol1
 {
@@ -803,7 +823,7 @@ text-align: center;
 {
     display: flex;
     flex-wrap: wrap;
-    gap: 5%;
+    gap: 3%;
     justify-content: center;
 align-self: center;
 width: 100%;
@@ -813,7 +833,8 @@ padding-block:46px;
 {
     display: flex;
     flex-direction:column;
-    align-items:center; 
+    align-items:center;
+    width: 16%; 
 
 
 }
@@ -822,10 +843,10 @@ padding-block:46px;
     display: flex;
     flex-direction: column;
 }
-/* .yellowiconcontainer
+.yellowiconcontainer
 {
-
-} */
+width: 43%;
+}
 .yellowicon
 {
     width: 100%;
@@ -835,8 +856,8 @@ padding-block:46px;
 .sectioneighttext
 {
     font-size: 13px;
-
-
+margin-block: 6%;
+color: rgb(58,58 ,58);
 }
 
 
