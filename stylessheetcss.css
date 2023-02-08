@@ -1,0 +1,1032 @@
+@import url("fontfamily.css");
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  .saleoff
+  {
+background-image: url("images/get10%offbackground.png");
+background-size: 100% 100%;
+background-repeat: no-repeat no-repeat; 
+color: rgb(111,111,111); 
+text-align: center;
+font-family:RanuaTrials-Medium;
+font-size: 15px;
+}
+.pagewidth
+{
+    margin: auto;
+    max-width: 1700px;
+}
+.section3top
+{
+max-width: 1300px;
+padding: 0 35px;
+margin: auto;
+}
+nav
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navlogo
+{
+    width: 15%;
+}
+.logoimage
+{
+   width: 100%;
+   display: block;
+}
+.nav-ul
+{width: 74%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.anchor-li
+{
+    text-decoration: none;
+    color:rgb(111, 111, 111);
+    font-family:RanuaTrials-Regular;
+    font-size: 13px;
+    
+}
+.nav-icon-image
+{
+    width: 70%;
+    display: block;
+}
+.nav-icon
+{
+    width: 2%;
+}
+/*******************carouselhomebackground***********************/
+#sectionone
+{
+    margin: 4% auto;
+}
+.backgroundtophome
+{
+    background-image:url("images/glowhometop.png"),url("images/propersectiononebackgroundimage.jpg");
+
+    /* both back-ground images are not repeating */
+    background-repeat: no-repeat,no-repeat;
+   
+    background-size: 30% 100%,100% 100%;
+
+}
+.homecarousel1row
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-block: 100px;
+}
+.homecarousel1col1
+{
+    width: 50%;
+}
+.carouselulimagesiconrow
+{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding-block: 40px;
+width: 100%;
+gap: 5%;
+}
+.sectiononeiconcol
+{
+  
+width: 14%;
+}
+.iconscontainersectionone
+{
+    width: 35%; /* adjust this to control the size of the circular image */
+    /* height: 0; */
+  
+    padding: 22%; /* maintain the aspect ratio of the image */
+  
+    overflow: hidden;
+
+     /* make the image circular */
+    position: relative;
+}
+
+.sectiononeiconcoltext
+{
+    font-family:RanuaTrials-Regular;
+    font-size: 12px;
+    color: rgb(58,58,58);
+    margin-block:6%;
+    font-size: 12px;
+}
+
+.homecarouselcol2
+{
+    width: 50%;
+    padding-block-end: 200px;
+    padding-inline-start: 38px;
+
+}
+.orangecylinder
+{
+    max-width: 19%;
+    display: block;
+}
+.homecarousel1col1heading
+{
+    font-family:RanuaTrials-Medium;
+    color: rgb(58,58,58);
+    font-size: 55px;
+}
+.homecarousel1col1smalltext
+{
+    font-family:RanuaTrials-Regular;
+    color: rgb(58,58,58);
+    padding-block: 20px;
+}
+
+
+
+
+/**********************************************************/
+.middlerow
+{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.yellowbottle
+{
+    transform: translateX(75px);
+}
+/*******************************Above bottles section************/
+#abovebottlessection
+{
+    margin:auto;
+}
+.carouselulimagesiconrow2
+{
+display: flex;
+flex-wrap: wrap;
+gap: 2%;
+justify-content: center;
+}
+.sectiononeiconcol2
+{
+    display: flex;
+    flex-direction:column;
+    align-items:center; 
+    width: 19%;
+    text-align: center;
+    
+}
+
+.abovebottlesrow
+{
+display: flex;
+align-items: center;
+justify-content: space-around;
+flex-wrap: wrap;
+    
+}
+
+.imagecontainer1
+{    width: 35%; /* adjust this to control the size of the circular image */
+    /* height: 0; */
+  
+    padding: 30%; /* maintain the aspect ratio of the image */
+  
+    overflow: hidden;
+    border-radius: 50%;
+     /* make the image circular */
+    position: relative;
+    border: 4px solid rgb(244 189 86 / 78%);
+
+}
+.iconimage
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* center the image */
+width: 100%; /* make the image stretch to fill the container */
+}
+
+/****************************************************************/
+
+/*****************************Bottle section***********************/
+#bottlesection
+{
+background-image: url("images/threebottlesbackground.png");
+margin:4% auto;
+padding-block: 22px;
+background-size: cover;
+background-position: center;
+}
+.exploreourcollection
+{
+    font-size: 20px;
+}
+.textbottlesection
+{
+   text-align: center;
+   width: 50%;
+   margin: 0 auto;
+  
+}
+
+
+.textbottlesection h2
+{
+    font-size: 30px;
+    font-family:RanuaTrials-Regular;
+}
+.textbottlesection p
+{
+      font-family:RanuaTrials-Regular;
+      color: rgb(58,58,58);
+      padding-block: 25px;
+}
+.bottlesrow
+{
+    display: flex;
+    align-items: center;
+gap: 2%;
+    padding-block-start: 100px;
+    flex-wrap:wrap ;
+}
+.threebottles
+{
+    width: 100%;
+    padding-block-end: 106px;
+}
+.bottlecolumn
+{
+    width: 23%;
+    text-align: center;
+position: relative;
+}
+.topcornertext
+{
+    position: absolute;
+    bottom:95%;
+    color: black;
+    font-family:RanuaTrials-Heavy;
+    width: 43%;
+    text-align: left;
+}
+.threebottlescontent
+{
+    background-color: rgb(255, 255, 255);
+    padding-bottom:38px;
+    position: absolute;
+    top: 65%;
+    left: 0;
+    right: 0;
+ 
+}
+
+
+.threebottlename
+{
+    font-family:RanuaTrials-Medium;
+    color: rgb(58,58, 58);
+    font-size: 16px;
+}
+.threebottlep
+{
+    font-family:RanuaTrials-Regular;
+    color: rgb(162,162,162);
+    font-size: 12px;
+    padding-block: 6px;
+}
+.buynowbutton
+{    color: rgb(58,58, 58);
+    font-family:RanuaTrials-Medium;
+    border: none;
+    border-radius: 20px;
+    padding-block: 7px;
+    padding-inline: 24px;
+    background-color:#fcd285;
+
+}
+
+.textbottlesection
+{
+    /* text-align: center; */
+    font-family:RanuaTrials-Medium;
+
+}
+.textbottlesection h2
+{
+color: rgb(58,58,58);
+}
+
+
+
+/**********************Child Section**********************************/
+#childsection
+{
+    margin: 4% auto;
+}
+
+.rowchild
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.col1child
+{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+.col2child
+{   
+    width: 45%;
+}
+.col1childtext
+{
+    color: rgb(58,58,58);
+    font-family:RanuaTrials-Medium;
+    font-size: 20px;
+}
+.littlechildimage
+{
+    width: 100%;
+    height: auto;
+}
+.imageicons-row
+{display: flex;
+ flex-wrap: wrap;}
+.imageicons-column
+{
+    font-family:RanuaTrials-Regular;
+    color: rgb(58,58,58);
+    /* white-space: pre-wrap; */
+    width: 26%;
+    text-align: center;
+}
+.imagecontainer
+{  width: 100%;
+}
+.circularimageimage
+{
+    width: 70%;
+}
+.childicontext
+{
+    font-size: 13px;
+    color: rgb(58,58,58);
+}
+/**************************Section number five****************/
+#sectionfive
+{
+background-image: url("images/latestsectionfivebackground.jpg");
+background-repeat: no-repeat no-repeat;
+background-size: 100% 100%;
+
+
+}
+.sectionfiverow
+{
+    display: flex;
+    padding-block: 60px;
+    justify-content: flex-end;
+}
+.sectionfivecolumn
+{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.sectionfiveiconandtext
+{
+display: flex;
+align-items:center;
+column-gap: 4%;
+color: rgb(58,58,58);
+font-family:RanuaTrials-Medium;
+font-size: 20px;
+padding-block: 9px;
+}
+.sectionfiveicons
+{
+  width: 100%;
+  height: auto;
+  display: block;  
+}
+.sectionfiveiconcontainer
+{
+    width: 14%;
+}
+
+
+
+
+
+
+/**************************Section number six*******************/
+#sectionsix
+{
+    background-image: url("images/bluecylinderontablebackground.jpg"),url("images/mostbottomsectionsix.png");
+    background-repeat: no-repeat , no-repeat;
+ 
+    background-size:100% 100%,100% 100%;
+    padding-block: 150px;
+}
+.sectionsixrow
+{
+    display: flex;
+    flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
+}
+.sectionsixcol1
+{
+    width: 38%;
+}
+.sectionsixcol2
+{
+    width: 58%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  
+}
+.bluecylinder
+{
+    max-width: 16%;
+    width: 100%;
+}
+.bluecylinderglare
+{
+    position: absolute;
+    bottom:1%;
+    left: 27%;
+    width:26%;
+}
+
+.smallsizetextsix
+{
+    font-family:RanuaTrials-Regular;
+    color: rgb(91,91,91);
+    padding-block: 20px;
+}
+
+/***************************************************************/
+
+
+
+
+/************************************************************/
+.sectionheadingtext 
+{
+    font-family:RanuaTrials-Medium;
+
+}
+
+/**************************Accordian Section*************************************/
+#accordiansection
+{
+    
+    font-family:RanuaTrials-Medium;
+    color: rgb(58,58,58);
+}
+.headingaccordiansection
+{padding-block: 50px;
+    text-align: center;
+}
+.accordiontextanchorlink
+{
+    color: rgb(11, 150, 204);
+}
+
+.accordioncontainer
+{
+    margin: auto;
+    width: 70%;
+    border: solid;
+    border-color: #fcd4ab;
+    border-width: 1px;
+}
+
+
+.accordion {
+ 
+    background-color: rgb(255, 255, 255);
+    color: rgb(58,58,58);
+    cursor: pointer;
+  width: 100%;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    font-family:RanuaTrials-Regular;
+    font-size: 18px;
+    padding: 20px;
+    border: none;
+    outline: none;
+  }
+  
+  .active, .accordion:hover {
+    background-color: rgb(250, 246, 239);
+
+
+  }
+  
+  .accordion:after {
+    content: '\002B';
+  color:rgb(253 165 1);
+  padding-left: 20px;
+    float: right;
+
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .panel {
+
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    font-family:RanuaTrials-Light;
+    color: rgb(58, 58, 58);
+  }
+.accordiontext
+{    background-color: rgb(255, 248, 231);
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+/***************************Spurulent section********/
+#sprulentsection
+{
+    color: rgb(58,58,58);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+.spurulentimgandheading
+{
+
+display: flex;
+justify-content: center;
+gap: 1%;
+flex-wrap: wrap;
+
+}
+
+.spurulenttext
+{
+    text-align: center;
+    font-family:RanuaTrials-Light;
+    padding-block: 25px;
+    
+}
+
+
+
+
+
+
+
+
+/************************************************/
+.abovefooterrow
+{
+    display: flex;
+    flex-wrap: wrap;
+width: 100%;
+gap: 2%;
+}
+.abovefootercol
+{  width: 12.57%;
+}
+.imageabovefooter
+{
+    width:100%;
+    height:100%;
+}
+
+/*********************Footer Section    *************************/
+#footersection
+{
+    background-image: url("images/footerbackground.png");
+    color: rgb(255, 255, 255);
+    background-repeat: no-repeat no-repeat;
+    background-position:center center;
+    background-size: 100% 100%;
+}.footerrow
+{
+    display: flex;
+    justify-content: space-between;
+    padding-block:40px;
+    flex-wrap: wrap;
+}
+.footercolumn1
+{
+
+    display: flex;
+text-align: center;
+    align-items: center;
+    flex-direction:column ;
+    flex-wrap: nowrap;
+    width: 20%;
+
+}
+.iconfaceinastacopyright
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.facebookandinstafooter
+{
+    padding-block:20px;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+.instacontainer,.facebookcontainer
+{
+    width: 40%;
+
+}
+.instaimage,.facebookimage
+{
+    width: 100%;
+    display: block;
+}
+.footercolumn4
+{
+    width: 27%;
+}
+.anchorfooter
+{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family:RanuaTrials-Light;
+}
+.ulfooter
+{
+    list-style-type: none;
+    font-family:RanuaTrials-Light;
+    font-size: 12px;
+    padding-block:16px;
+   
+}
+.main-ul
+{
+    font-family:RanuaTrials-Regular;
+    font-size: 14px;
+
+}
+.lifooter
+{
+    font-family:RanuaTrials-Light;
+    padding-block: 5px;
+}
+.col4text
+{
+    font-size: 12px;
+    font-family:RanuaTrials-Light;
+  padding-block: 16px;
+}
+input
+{
+    padding-block: 8px;
+}
+
+
+
+/***************************Section number Seven***************/
+#sectionseven
+{
+    background-color:rgb(217, 244, 255);
+    text-align:center;
+    color: rgb(58,58,58);
+    padding-block:40px;
+    
+}
+.sectionsevenheading
+{
+   
+        font-family:RanuaTrials-Regular;
+        font-size: 25px;
+        padding-block: 35px;
+}
+.sectionsevenrow
+{
+    display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+
+
+}
+.sectionsevencolumn
+{
+width: 25%;
+text-align: center;
+
+}
+.userimagecontainer
+{
+    background-color: rgb(200, 200, 200);
+
+    margin: auto;
+    max-width: 36px;
+    border-radius: 50%;
+   overflow: hidden;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.circularcardimages
+{
+    width: 100%;
+    height: auto;
+}
+.customername
+{
+    font-family:RanuaTrials-Bold;
+    font-size: 15px;
+    padding-block:13px;
+   
+}
+.customer-review
+{
+    font-family:RanuaTrials-Light;
+    font-size: 13px;
+    text-align: center;
+    padding-block: 25px;
+}
+.fivestarsrating
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+/*************************Section number eight**********************************/
+#sectioneight
+{
+    text-align: center;
+    font-family:RanuaTrials-Medium;
+    color: rgb(58,58,58);
+    margin:4% auto ;
+}
+
+
+.sectioneightrow
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    justify-content: center;
+align-self: center;
+width: 100%;
+padding-block:46px;
+}
+.sectioneightcol
+{
+    display: flex;
+    flex-direction:column;
+    align-items:center; 
+
+
+}
+.sectioneightheadingtext
+{
+    display: flex;
+    flex-direction: column;
+}
+/* .yellowiconcontainer
+{
+
+} */
+.yellowicon
+{
+    width: 100%;
+    display: block;
+}
+
+.sectioneighttext
+{
+    font-size: 13px;
+
+
+}
+
+
+/*****************************CLEANING BOTTLE SECTION***********/
+.cleaningbottletext
+{
+    font-family:RanuaTrials-Regular;
+    color: rgb(58,58,58);
+    font-size: 34px;
+}
+.smallsizetext
+{
+    font-family:RanuaTrials-Regular;
+    color: rgb(58,58,58); 
+    padding-block: 15px;
+}
+#backgroundsection
+{
+background-image:url("images/greenglobesection9background.jpg");
+
+/* both back-ground images are not repeating */
+background-repeat: no-repeat,no-repeat;
+/* for responsive image we use background-size:cover */
+background-size:100% 100%
+
+
+}
+.cleaningpottlerow
+{   
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 150px;
+}
+.cleaningpottlecol1
+{
+
+    width: 37%;
+}
+.cleaningpottlecol2
+{
+    width: 33%;
+}
+.icon-arrow
+{
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    border-radius: 4px;
+
+}
+.orangearrow
+{
+background-color: orange;
+}
+
+.inputplacehodertext::placeholder
+{
+font-family:RanuaTrials-Regular;
+font-size: 12px;
+}
+
+/****************************MEDIA QUERY*******************/
+@media screen and (max-width: 767px)
+{
+
+    .section3top
+    {
+        padding:0 40px
+    }
+    .homecarousel1row
+    {
+        justify-content: center;
+        text-align: center;
+    }
+    .orangecylinder
+    {
+        margin:auto
+    }
+    .homecarousel1col1
+    {
+        width: 100%;
+    }
+    .bottlecolumn
+    {
+        width: 100%;
+    }
+
+
+
+
+    /*******************MEDIA QUERY FOR SECTION SIX***************************/
+     .sectionsixcol1
+    {
+        width: 100%;
+        text-align: center;
+    }
+    .sectionsixcol2
+    {
+        width: 100%;
+    } 
+
+
+
+    /************************Section eight************/
+    .sectioneightcol
+    {
+        width: 100%;
+       
+    }
+    .sectioneighttext
+    {
+        text-align: center;
+    }
+
+
+
+
+
+    /******************Section seven media query**********/
+    .sectionsevencolumn
+    {
+        width: 100%;
+    }
+
+
+
+
+    /****************Accordian Container**************/
+    .accordioncontainer
+    {
+        width: 100%;
+    }
+
+
+
+
+
+    /*******************Above Footer Section***********/
+    .abovefootercol
+    {
+        width: 100%;
+    }
+    .abovefootercol
+    {
+       padding-block: 20px;
+       padding-inline:40px ;
+    }
+
+
+
+
+
+
+
+/****************************Footer Media Query*******/
+.footerrow
+{ display: flex;
+    justify-content: center;
+}
+.footercolumn1,.footercolumn2,.footercolumn3,.footercolumn4
+{
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+
+
+/*******************************************************/
+.sectiononeiconcol2
+{
+    width: 100%;
+    margin-block-end: 2%;
+}
+
+}
+
+
+.line{
+
+    width: calc(300px*1.41);
+    
+    border-bottom: 3px solid rgb(1, 68, 12);
+    
+    transform: rotate(45deg);
+    
+    transform-origin: left;
+    
+    }

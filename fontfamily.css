@@ -1,0 +1,71 @@
+@font-face {
+    font-family:RanuaTrials-Black;
+    src: url("Fonts/RanuaTrials-Black.otf");
+}
+
+@font-face {
+    font-family:RanuaTrials-BlackItalic;
+    src: url("Fonts/RanuaTrials-BlackItalic.otf");
+}
+@font-face {
+    font-family:RanuaTrials-Bold;
+    src: url("Fonts/RanuaTrials-Bold.otf");
+}
+@font-face {
+    font-family:RanuaTrials-BoldItalic;
+    src: url("Fonts/RanuaTrials-BoldItalic.otf");
+}
+
+@font-face {
+    font-family:RanuaTrials-Fine;
+    src: url("Fonts/RanuaTrials-Fine.otf");
+}
+@font-face {
+    font-family:RanuaTrials-FineItalic;
+    src: url("Fonts/RanuaTrials-FineItalic.otf");
+}
+@font-face {
+    font-family:RanuaTrials-Heavy;
+    src: url("Fonts/RanuaTrials-Heavy.otf");
+}
+@font-face {
+    font-family:RanuaTrials-HeavyItalic;
+    src: url("Fonts/RanuaTrials-HeavyItalic.otf");
+}
+@font-face {
+    font-family:RanuaTrials-Italic;
+    src: url("Fonts/RanuaTrials-Italic.otf");
+}
+@font-face {
+    font-family:RanuaTrials-Light;
+    src: url("Fonts/RanuaTrials-Light.otf");
+}
+
+@font-face {
+    font-family:RanuaTrials-LightItalic;
+    src: url("Fonts/RanuaTrials-LightItalic.otf");
+}
+
+
+
+
+@font-face {
+    font-family:RanuaTrials-Medium;
+    src: url("Fonts/RanuaTrials-Medium.otf");
+}
+@font-face {
+    font-family:RanuaTrials-MediumItalic;
+    src: url("Fonts/RanuaTrials-MediumItalic.otf");
+}
+@font-face {
+    font-family:RanuaTrials-Regular;
+    src: url("Fonts/RanuaTrials-Regular.otf");
+}
+@font-face {
+    font-family:RanuaTrials-Thin;
+    src: url("Fonts/RanuaTrials-Thin.otf");
+}
+@font-face {
+    font-family:RanuaTrials-ThinItalic;
+    src: url("Fonts/RanuaTrials-ThinItalic.otf");
+}
