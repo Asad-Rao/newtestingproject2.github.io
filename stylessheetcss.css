@@ -6,18 +6,22 @@
     margin: 0;
 }
 
+
+
+
 button {
     cursor: pointer;
 }
 
 .saleoff {
-    background-image: url("images/get10%offbackground.png");
+    background-image: url("images/bluepattisales.png");
     background-size: 100% 100%;
     background-repeat: no-repeat no-repeat;
     color: rgb(111, 111, 111);
     text-align: center;
     font-family: RanuaTrials-Medium;
-    font-size: 15px;
+    font-size: 14px;
+    padding-block: 5px;
 }
 
 .pagewidth {
@@ -31,8 +35,15 @@ button {
     margin: auto;
 }
 
+.navsection3top {
+    max-width: 1300px;
+    padding: 0 35px;
+    margin: auto;
+}
+
 .nav-section {
-    padding-block: 20px;
+    padding-block: 18px;
+    background-color: white;
 }
 
 nav {
@@ -42,6 +53,43 @@ nav {
     align-items: center;
 }
 
+/********************Hamburger menue***************/
+.container {
+    display: none;
+
+}
+
+.bar1,
+
+.bar3 {
+    width: 29px;
+    height: 2px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.bar2 {
+    width: 14px;
+    height: 2px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change1 {
+    transform: translate(0, 8px) rotate(-45deg);
+}
+
+.change2 {
+    opacity: 0;
+}
+
+.change3 {
+    transform: translate(0, -8px) rotate(45deg);
+}
+
+/***************************************************/
 .navlogo {
     width: 15%;
 }
@@ -67,7 +115,7 @@ nav {
 }
 
 .nav-icon-image {
-    width: 70%;
+    width: 100%;
     display: block;
 }
 
@@ -96,6 +144,20 @@ nav {
     padding-block: 100px;
 }
 
+
+/* .heyU
+{
+    display: flex;
+
+}
+.Udiv
+{
+    width: 9%;
+}
+.Uimage
+{
+    width: 100%;
+} */
 .homecarousel1col1 {
     width: 50%;
 }
@@ -106,10 +168,12 @@ nav {
     align-items: center;
     /* justify-content: flex-start; */
     width: 100%;
+    padding-block: 30px;
+    gap: 1%;
+
 }
 
-.sectiononeiconcolhome
-{
+.sectiononeiconcolhome {
     width: 18%;
 }
 
@@ -130,7 +194,7 @@ nav {
 }
 
 .iconscontainersectionone {
-    width: 60%;
+    width: 64%;
 
 }
 
@@ -139,7 +203,8 @@ nav {
     font-size: 12px;
     color: rgb(58, 58, 58);
     margin-block: 3%;
-    font-size: 14px;
+    font-size: 12px;
+    text-align: center;
 }
 
 .homecarouselcol2 {
@@ -188,13 +253,17 @@ nav {
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
+    gap: 3%;
+    padding-block: 34px;
+
+
 }
 
 .sectiononeiconcol2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 16%;
+    width: 14%;
     text-align: center;
 
 }
@@ -227,6 +296,7 @@ nav {
 
     /* center the image */
     width: 100%;
+    display: block;
     /* make the image stretch to fill the container */
 }
 
@@ -241,14 +311,23 @@ nav {
     background-position: center;
 }
 
-.exploreourcollection {
-    font-size: 20px;
-}
+
 
 .textbottlesection {
-    text-align: center;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+text-align: center;
+gap: 1%;
+}
+.textbottleheading
+{
     width: 50%;
-    margin: 0 auto;
+}
+.exploreourcollection {
+    font-size: 20px;
+    width: 50%;
 
 }
 
@@ -267,20 +346,21 @@ nav {
 .bottlesrow {
     display: flex;
     align-items: center;
-    gap: 2%;
-    padding-block-start: 60px;
+    column-gap: 2%;
     flex-wrap: wrap;
 }
 
 .threebottles {
     width: 100%;
-    padding-block-end: 106px;
+    display: block;
 }
 
 .bottlecolumn {
     width: 23%;
     text-align: center;
     position: relative;
+    background-color: white;
+
 }
 
 .topcornertext {
@@ -293,16 +373,13 @@ nav {
     right: 60%;
 }
 
-.threebottlescontent {
-    background-color: rgb(255, 255, 255);
-    padding-bottom: 38px;
-    position: absolute;
-    top: 65%;
-    left: 0;
-    right: 0;
-
+.threebottlescontent
+{
+    position: relative;
+    bottom: 50px;
+    background-color: white;
+    padding-block-end: 40px;
 }
-
 
 .threebottlename {
     font-family: RanuaTrials-Medium;
@@ -324,7 +401,7 @@ nav {
     border-radius: 20px;
     padding-block: 10px;
     padding-inline: 24px;
-    background-color: rgb(254, 203, 122);
+    background-color: rgba(253,203,121,255);
     font-size: 12px;
 }
 
@@ -349,6 +426,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 .col1child {
@@ -363,7 +442,7 @@ nav {
 
 .col1childtext {
     color: rgb(58, 58, 58);
-    font-family: RanuaTrials-Medium;
+    font-family: RanuaTrials-Regular;
     font-size: 30px;
 }
 
@@ -376,14 +455,16 @@ nav {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    gap: 13%;
+    padding-block: 56px;
+    row-gap: 30px;
 }
 
 .imageicons-column {
     font-family: RanuaTrials-Regular;
     color: rgb(58, 58, 58);
     /* white-space: pre-wrap; */
-    width: 26%;
-    text-align: center;
+    width: 20%;
 }
 
 .imagecontainer {
@@ -391,13 +472,14 @@ nav {
 }
 
 .circularimageimage {
-    width: 70%;
+    width: 100%;
 }
 
 .childicontext {
-    font-size: 14px;
+    font-size: 12px;
     color: rgb(58, 58, 58);
     margin-block: 6%;
+    text-align: center;
 }
 
 /**************************Section number five****************/
@@ -414,6 +496,7 @@ nav {
     padding-block: 60px;
     justify-content: right;
     flex-wrap: wrap;
+    width: 100%;
 
 }
 
@@ -431,6 +514,7 @@ nav {
     font-family: RanuaTrials-Medium;
     font-size: 20px;
     padding-block: 9px;
+    width: 100%;
 }
 
 .sectionfiveicons {
@@ -450,7 +534,7 @@ nav {
     border-radius: 20px;
     padding-block: 13px;
     padding-inline: 34px;
-    background-color: rgb(254, 203, 122);
+    background-color:rgba(253,203,121,255);
     font-size: 12px;
 }
 
@@ -469,6 +553,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    padding-block: 130px;
 }
 
 .sectionsixcol1 {
@@ -490,7 +575,7 @@ nav {
     border-radius: 20px;
     padding-block: 12px;
     padding-inline: 24px;
-    background-color: rgb(254, 203, 122);
+    background-color: rgba(253,203,121,255);
     font-size: 12px;
 }
 
@@ -516,11 +601,22 @@ nav {
 
     font-family: RanuaTrials-Medium;
     color: rgb(58, 58, 58);
+    margin: 4% auto;
 }
 
 .headingaccordiansection {
-    padding-block: 50px;
+
     text-align: center;
+}
+
+.accordianwholecontainer {
+    width: 100%;
+    padding-block: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1%;
 }
 
 .accordiontextanchorlink {
@@ -528,11 +624,11 @@ nav {
 }
 
 .accordioncontainer {
-    margin: auto;
-    width: 70%;
+
     border: solid;
-    border-color: #fcd4ab;
+    border-color: #feda9f;
     border-width: 1px;
+    width: 65%;
 }
 
 
@@ -554,16 +650,16 @@ nav {
 
 .active,
 .accordion:hover {
-    background-color: rgb(250, 246, 239);
-
+    background-color: #fff8ec;
+    color: #3a3a3a;
 
 }
 
 .accordion:after {
     content: '\002B';
-    color: rgb(253 165 1);
-    padding-left: 20px;
+    color: #fecb7a;
     float: right;
+    font-size: 22px;
 
 }
 
@@ -586,6 +682,9 @@ nav {
     padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
+    color: #3a3a3a;
+    font-size: 13px;
+    font-family: RanuaTrials-Light;
 
 }
 
@@ -662,7 +761,15 @@ nav {
     width: 20%;
 
 }
-
+.footerdivlogo
+{
+    width:79%;
+}
+.footerlogo
+{
+    width: 100%;
+    display: block;
+}
 .iconfaceinastacopyright {
     display: flex;
     flex-direction: column;
@@ -675,6 +782,7 @@ nav {
     justify-content: space-between;
     width: 40%;
 }
+
 
 .instacontainer,
 .facebookcontainer {
@@ -728,6 +836,15 @@ input {
     width: 83%;
 
 }
+form
+{
+display: flex;
+flex-direction: row;
+}
+input
+{
+    border-style: none;
+}
 
 
 
@@ -738,6 +855,10 @@ input {
     color: rgb(58, 58, 58);
     padding-block: 40px;
 
+}
+.greycolor
+{
+    padding: 10px;
 }
 
 .sectionsevenheading {
@@ -762,10 +883,10 @@ input {
 }
 
 .userimagecontainer {
-    background-color: rgb(200, 200, 200);
+    background-color:rgba(221,221,223,255);
 
     margin: auto;
-    max-width: 36px;
+    max-width: 48px;
     border-radius: 50%;
     overflow: hidden;
     display: flex;
@@ -789,7 +910,7 @@ input {
     font-family: RanuaTrials-Light;
     font-size: 13px;
     text-align: center;
-    padding-block: 25px;
+    padding-block: 20px;
 }
 
 .fivestarsrating {
@@ -821,14 +942,14 @@ input {
     justify-content: center;
     align-self: center;
     width: 100%;
-    padding-block: 46px;
+    padding-block: 34px;
 }
 
 .sectioneightcol {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 16%;
+    width: 14%;
 
 
 }
@@ -836,10 +957,11 @@ input {
 .sectioneightheadingtext {
     display: flex;
     flex-direction: column;
+    font-family: RanuaTrials-Regular;
 }
 
 .yellowiconcontainer {
-    width: 40%;
+    width: 64%;
 }
 
 .yellowicon {
@@ -848,8 +970,8 @@ input {
 }
 
 .sectioneighttext {
-    font-size: 13px;
-    margin-block: 6%;
+    font-size: 12px;
+    margin-block-start: 6%;
     color: rgb(58, 58, 58);
 }
 
@@ -859,6 +981,8 @@ input {
     font-family: RanuaTrials-Regular;
     color: rgb(58, 58, 58);
     font-size: 34px;
+
+
 }
 
 .smallsizetext {
@@ -902,8 +1026,20 @@ input {
 }
 
 .orangearrow {
-    background-color: rgb(254, 203, 122);
+    background-color:rgba(253,203,121,255);
+    color: white;
+    padding-inline: 15px;
+    border-color:rgba(253,203,121,255) ;
+    border-style: solid;
 }
+.button:focus {
+    outline: none;
+  }
+.orangearrow span
+{
+    font-size: 15px;
+}
+
 
 .inputplacehodertext::placeholder {
     font-family: RanuaTrials-Regular;
@@ -914,44 +1050,91 @@ input {
 @media screen and (max-width: 767px) {
 
     .section3top {
-        padding: 0 40px
+        padding: 0 40px;
     }
 
-    .homecarousel1row {
-        justify-content: center;
-        text-align: center;
+    .navsection3top {
+        padding: 0;
     }
 
-    .orangecylinder {
-        margin: auto
-    }
-
-    .homecarousel1col1 {
-        width: 100%;
-    }
-
-    .bottlecolumn {
-        width: 100%;
-    }
-
-
-/************************MEDIA QUERY FOR HOME CAROUSEL*****/
-.carouselulimagesiconrow
+    /************************NAV MEDIA QUERY**************************************/
+.navandsalediv
 {
-    display: flex;
-    justify-content: center;
+position: fixed;
+left: 0;
+right: 0;
+top: 0;
+z-index: 1;    
 }
-/**********************************************************/
 
-    /*******************MEDIA QUERY FOR SECTION SIX***************************/
-    .sectionsixcol1 {
-        width: 100%;
-        text-align: center;
-    }
 
-    .sectionsixcol2 {
+
+
+
+    /************************MEDIA QUERY FOR HOME CAROUSEL*****/
+    .sectiononeiconcolhome {
         width: 100%;
     }
+
+/* .nav-section
+{
+
+    position: fixed;
+    top: 29px;
+    right: 0;
+    left: 0;
+    z-index: 1;
+} */
+    .logoimage {
+        max-width: 157px;
+    }
+
+    .nav-icon {
+        width: auto;
+        position: relative;
+        right: 18px;
+    }
+
+    .nav-icon-image {
+        max-width: 50px;
+    }
+
+    .navlogo {
+        width: auto;
+    }
+.nav-li
+{
+    padding-block: 8px;
+}
+
+ .anchor-li
+ {
+    font-size: 18px;
+    position: relative;
+    left: 18px;
+ }
+
+    /**********************************************************/
+    /**********After home carousel section***************/
+    .iconscontainersectionone {
+        width: 100%;
+    }
+
+
+    /****************************************************/
+
+    /*******************MEDIA QUERY FOR SECTION THREE***************************/
+
+    .textbottleheading
+    {
+        width: 100%;
+    }
+    .exploreourcollection {
+        
+        width: 100%;
+    
+    }
+
 
     /***********************Section five media query*****/
 
@@ -959,7 +1142,8 @@ input {
 
     /************************Section eight************/
     .sectioneightcol {
-        width: 100%;
+        width: 48%;
+        margin-block: 2%;
 
     }
 
@@ -967,6 +1151,9 @@ input {
         text-align: center;
     }
 
+    .yellowiconcontainer {
+        width: 100%;
+    }
 
 
 
@@ -976,7 +1163,9 @@ input {
         width: 100%;
     }
 
-
+    .sectionsevenrow {
+        column-gap: 20px;
+    }
 
 
     /****************Accordian Container**************/
@@ -998,6 +1187,18 @@ input {
         padding-inline: 40px;
     }
 
+    /*****************************Bottle section*******************************/
+    .bottlecolumn {
+        width: 100%;
+    }
+
+    /**************************************************************************/
+/*******************Section Five Media Query*******************************/
+.sectionfiveiconcontainer
+{
+    width: 100%;
+}
+/**************************************************************************/
 
 
 
@@ -1017,9 +1218,14 @@ input {
         width: 100%;
         text-align: center;
     }
-    input
-    {
+
+    input {
         width: 30%;
+        
+    }
+    form
+    {
+justify-content: center;
     }
 
 
@@ -1029,35 +1235,73 @@ input {
 
     /*******************************************************/
     .sectiononeiconcol2 {
-        width: 100%;
-        margin-block-end: 2%;
+        width: 48.5%;
+        margin-block-end: 4%;
     }
+
     /****************green globe section***********/
-    .cleaningpottlecol1
-    {
-    width: 100%;
-    text-align: center;    
-    }  
-.sectionfivecolumn
+
+
+
+
+
+    /*********************Section one Media Query ********/
+.backgroundtophome
 {
-    width: 100%;
-    text-align: center;
-}
-.sectionfiveiconandtext
-{
-    justify-content: center;
+    margin-block-start: 108px;
 }
 
 
 
-/*********************Section six Media Query ********/
-.sectionsixcol1
+
+
+    /**************************Child Section**************/
+    .rowchild {
+        justify-content: center;
+    }
+
+    .col1child {
+        width: 100%;
+    }
+
+    .col2child {
+        width: 100%;
+    }
+
+    .col1childtext {
+        text-align: center;
+    }
+
+    .imageicons-row {
+        justify-content: center;
+    }
+
+    .imageicons-column {
+        width: 43.5%;
+        margin-block-end: 4%;
+    }
+
+    /******************Hamburger Menue Media Query*****/
+    .container {
+        display: block;
+        position: relative;
+        left: 18px;
+
+    }
+
+    .nav-ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 103px;
+        background-color: white;
+        width: 100%;
+        height: 100vh;
+    }
+
+.sectioneightrow
 {
-    width: 100%;
-}
-.sectionsixrow
-{
-    justify-content: center;
+    justify-content: space-between;
 }
 }
 
@@ -1074,6 +1318,5 @@ input {
 
 
 
-  
-}
 
+}
