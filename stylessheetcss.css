@@ -129,9 +129,11 @@ nav {
     background-image: url("images/greenglobesection9background.jpg");
 
     /* both back-ground images are not repeating */
-    background-repeat: no-repeat, no-repeat;
+    background-repeat: no-repeat no-repeat;
 
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
 
 }
 
@@ -496,7 +498,8 @@ gap: 1%;
 #sectionfive {
     background-image: url("images/latestsectionfivebackground.jpg");
     background-repeat: no-repeat no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center;
 
 
 }
@@ -552,10 +555,11 @@ gap: 1%;
 
 /**************************Section number six*******************/
 #sectionsix {
-    background-image: url("images/bluecylinderontablebackground.jpg"), url("images/mostbottomsectionsix.png");
-    background-repeat: no-repeat, no-repeat;
+    background-image: url("images/bluecylinderontablebackground.jpg");
+    background-repeat: no-repeat;
 
-    background-size: 100% 100%, 100% 100%;
+    background-size: cover;
+    background-position:center ;
     padding-block: 150px;
 }
 
@@ -948,7 +952,7 @@ input
 .sectioneightrow {
     display: flex;
     flex-wrap: wrap;
-    gap: 2%;
+    gap: 3%;
     justify-content: center;
     align-self: center;
     width: 100%;
@@ -1005,9 +1009,9 @@ input
     background-image: url("images/greenglobesection9background.jpg");
 
     /* both back-ground images are not repeating */
-    background-repeat: no-repeat, no-repeat;
+    background-repeat: no-repeat;
     /* for responsive image we use background-size:cover */
-    background-size: 100% 100%
+    background-size:cover;
 }
 
 .cleaningpottlerow {
@@ -1200,6 +1204,7 @@ z-index: 1;
     /*****************************Bottle section*******************************/
     .bottlecolumn {
         width: 100%;
+        background-color: transparent;
     }
 
     /**************************************************************************/
@@ -1288,7 +1293,7 @@ justify-content: center;
 
     .imageicons-column {
         width: 43.5%;
-        margin-block-end: 5px;
+        margin-block-end: 15px;
     }
 
     /******************Hamburger Menue Media Query*****/
@@ -1313,6 +1318,7 @@ justify-content: center;
 {
     justify-content: space-between;
 }
+
 }
 
 
