@@ -238,7 +238,11 @@ nav {
     display: flex;
     /* justify-content: space-between; */
 }
-
+.threebottlesdiv
+{
+    width: 90%;
+    margin: auto;
+}
 .yellowbottle {
     transform: translateX(75px);
 }
@@ -372,13 +376,19 @@ gap: 1%;
     text-align: left;
     right: 60%;
 }
-
+.threebottlesdiv
+{
+    width: 90%;
+}
 .threebottlescontent
 {
+    
+   
+    background-color: white;
     position: relative;
     bottom: 50px;
-    background-color: white;
-    padding-block-end: 40px;
+   width: 90%;
+   margin: auto;
 }
 
 .threebottlename {
@@ -1143,7 +1153,7 @@ z-index: 1;
     /************************Section eight************/
     .sectioneightcol {
         width: 48%;
-        margin-block: 2%;
+        margin-block: 20px;
 
     }
 
