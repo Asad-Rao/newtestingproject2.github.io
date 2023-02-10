@@ -1289,10 +1289,11 @@ justify-content: center;
 
     .imageicons-row {
         justify-content: center;
+        gap: 3%;
     }
 
     .imageicons-column {
-        width: 43.5%;
+        width: 48.5%;
         margin-block-end: 15px;
     }
 
