@@ -25,3 +25,39 @@ $(document).ready(function () {
     $(".nav-ul").slideToggle("slow");
   });
 });
+
+$('.slideshow-container').slick({
+  infinite: true,
+  slidesToShow: 1,
+  speed: 300,
+  dots: true,
+  infinite: true,
+  arrows : false,
+  responsive: [
+    {
+      breakpoint: 767,
+      settings: {
+
+       
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+
+    
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+
+      
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+
