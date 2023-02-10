@@ -132,10 +132,44 @@ nav {
     background-repeat: no-repeat no-repeat;
 
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     max-width: 100%;
+    height: auto;
+    width: 100%;
 
 }
+.backgroundtophome2 {
+    background-image: url("images/firstcarouselpicture.jpg");
+
+    /* both back-ground images are not repeating */
+    background-repeat: no-repeat no-repeat;
+
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+
+}
+.backgroundtophome3
+{    background-image: url("images/carouselthree.jpg");
+
+    /* both back-ground images are not repeating */
+    background-repeat: no-repeat no-repeat;
+
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+
+}
+ .slideshow-container {
+    width: inherit;
+    position: relative;
+    margin: auto;
+  }
+
 
 .homecarousel1row {
     display: flex;
@@ -145,6 +179,8 @@ nav {
     flex-direction: row;
     padding-block: 100px;
 }
+
+
 
 
 /* .heyU
@@ -209,6 +245,9 @@ nav {
     text-align: center;
 }
 
+
+
+
 .homecarouselcol2 {
     width: 40%;
     display: flex;
@@ -225,6 +264,26 @@ nav {
     color: rgb(58, 58, 58);
     font-size: 55px;
 }
+/**********************CAROUSEL 2******************/
+.homecarousel1col1heading1 {
+    font-family: RanuaTrials-Medium;
+    color: rgb(255, 255, 255);
+    font-size: 55px;
+}
+.homecarousel1col1smalltext1 {
+    font-family: RanuaTrials-Regular;
+    color: rgb(255, 255, 255);
+    padding-block: 20px;
+}
+.sectiononeiconcoltext1 {
+    font-family: RanuaTrials-Regular;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    margin-block: 6%;
+    font-size: 12px;
+    text-align: center;
+}
+/*************************************************/
 
 .homecarousel1col1smalltext {
     font-family: RanuaTrials-Regular;
@@ -232,10 +291,51 @@ nav {
     padding-block: 20px;
 }
 
+/***********************CAROUSEL THREE******************************/
+.homecarousel3row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+justify-content: flex-end;
+    flex-direction: row;
+    padding-block: 100px;
+}
+/*****************************FOURTH CAROUSEL**********/
+.fourthcarouselbackground
+{
+    background-image: url("images/fourthcarouselbackground.jpg");
 
+    /* both back-ground images are not repeating */
+    background-repeat: no-repeat no-repeat;
 
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
 
 /**********************************************************/
+
+
+
+/********************FIFTH CAROUSEL BACKGROUND***********/
+.fifthcarouselbackground
+{
+    background-image: url("images/fifthcarouselbackground.jpg");
+
+    /* both back-ground images are not repeating */
+    background-repeat: no-repeat no-repeat;
+
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+/*********************************************************/
+
+
 .middlerow {
     display: flex;
     /* justify-content: space-between; */
@@ -354,6 +454,7 @@ gap: 1%;
     align-items: center;
     column-gap: 2%;
     flex-wrap: wrap;
+    padding-block: 60px;
 }
 
 .threebottles {
